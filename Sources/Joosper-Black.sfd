@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1705026833
-ModificationTime: 1724765926
+ModificationTime: 1724776586
 PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
@@ -78,7 +78,7 @@ Grid
  2000 745.001953125 l 1024
   Named: "Ascender Height"
 EndSplineSet
-BeginChars: 65536 122
+BeginChars: 65536 124
 
 StartChar: I
 Encoding: 73 73 0
@@ -3121,6 +3121,28 @@ SplineSet
  42 63 49.8050768514 74 77 74 c 0
  103 74 109 60 109 37 c 0
 EndSplineSet
+EndChar
+
+StartChar: exclamdown
+Encoding: 161 161 122
+Width: 280
+Flags: W
+HStem: -240 20G<110.944 171.798> 330 179<77.568 202.139>
+VStem: 45 190<-219.47 96.732> 53 174<354.547 483.982>
+LayerCount: 2
+Fore
+Refer: 71 33 S -1 0 0 -1 280 499 2
+EndChar
+
+StartChar: questiondown
+Encoding: 191 191 123
+Width: 407
+Flags: W
+HStem: -240 76<284.051 371.718> 330 179<187.568 312.139>
+VStem: 41 179<-97.586 54.837> 163 174<354.547 483.982> 204 103<194 283.355>
+LayerCount: 2
+Fore
+Refer: 74 63 S -1 0 0 -1 407 499 2
 EndChar
 EndChars
 EndSplineFont
